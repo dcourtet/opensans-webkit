@@ -1,0 +1,22 @@
+{
+  "name": "opensans-webkit",
+  "version": "1.0.0",
+  "description": "Package for integrating Google Open Sans fonts in a web environment.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcourtet/opensans-webkit.git"
+  },
+  "keywords": [
+    "open-sans",
+    "google",
+    "font",
+    "font-face",
+    "webfont"
+  ],
+  "author": "David Courtet",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dcourtet/opensans-webkit/issues"
+  },
+  "homepage": "https://github.com/dcourtet/opensans-webkit#readme"
+}

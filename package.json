@@ -1,6 +1,6 @@
 {
   "name": "opensans-webkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package for integrating Google Open Sans fonts in a web environment.",
   "scripts": {
     "compile": "npm run compile:development && npm run compile:production",

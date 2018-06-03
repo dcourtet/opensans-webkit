@@ -2,7 +2,7 @@
 
 This project contains tools for integrating [Google Open Sans](https://github.com/google/fonts/tree/master/apache/opensans) fonts in a web environment.
 
-## Installation (npm)
+## Installation
 
 This [package](https://www.npmjs.com/package/opensans-webkit) can be deployed automatically using [npm](https://www.npmjs.com):
 
@@ -35,7 +35,7 @@ You can change the default fonts path by overriding `$opensans-path`:
 $opensans-path '/your/custom/path/';
 ```
 
-To include [Google Open Sans](https://github.com/google/fonts/tree/master/apache/opensans) fonts in your project, just add:
+To include [Google Open Sans](https://github.com/google/fonts/tree/master/apache/opensans) fonts in your SASS project, just add:
 
 ```
 # set your custom path for fonts
@@ -45,7 +45,7 @@ $opensans-path '/your/custom/path/';
 @import 'open-sans.scss';
 ```
 
-# Compile SASS to CSS
+## Compile SASS to CSS
 
 CSS files in the `src/css/` directory are generated from SASS files using:
 
@@ -53,13 +53,13 @@ CSS files in the `src/css/` directory are generated from SASS files using:
 # compile for development and production environment
 $ npm run compile
 
-# compile for development
+# compile for development environment
 $ npm run compile:development
 
-# compile for production (minify)
+# compile for production environment (minify)
 $ npm run compile:production
 ```
 
 ## License
 
-The source code is released under the Apache 2.0 license.
+The source code is released under the Apache 2.0 license. For more information, see the [LICENSE](https://github.com/dcourtet/opensans-webkit/blob/master/LICENSE) file.

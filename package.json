@@ -24,7 +24,7 @@
     "url": "https://github.com/dcourtet/opensans-webkit/issues"
   },
   "homepage": "https://github.com/dcourtet/opensans-webkit#readme",
-  "dependencies": {
+  "devDependencies": {
     "node-sass": "^4.9.0"
   }
 }

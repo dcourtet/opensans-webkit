@@ -3,17 +3,17 @@
 @import '_variables.scss';
 @import '_mixins.scss';
 
-@include opensans-font($opensans-path, $opensans-name, normal, 800, 'ExtraBold');
-@include opensans-font($opensans-path, $opensans-name, italic, 800, 'ExtraBoldItalic');
+@include opensans-font($opensans-path, $opensans-name, normal, $opensans-weight-extrabold, 'ExtraBold');
+@include opensans-font($opensans-path, $opensans-name, italic, $opensans-weight-extrabold, 'ExtraBoldItalic');
 
-@include opensans-font($opensans-path, $opensans-name, normal, 700, 'Bold');
-@include opensans-font($opensans-path, $opensans-name, italic, 700, 'BoldItalic');
+@include opensans-font($opensans-path, $opensans-name, normal, $opensans-weight-bold, 'Bold');
+@include opensans-font($opensans-path, $opensans-name, italic, $opensans-weight-bold, 'BoldItalic');
 
-@include opensans-font($opensans-path, $opensans-name, normal, 600, 'SemiBold');
-@include opensans-font($opensans-path, $opensans-name, italic, 600, 'SemiBoldItalic');
+@include opensans-font($opensans-path, $opensans-name, normal, $opensans-weight-semibold, 'SemiBold');
+@include opensans-font($opensans-path, $opensans-name, italic, $opensans-weight-semibold, 'SemiBoldItalic');
 
-@include opensans-font($opensans-path, $opensans-name, normal, 400, 'Regular');
-@include opensans-font($opensans-path, $opensans-name, italic, 400, 'Italic');
+@include opensans-font($opensans-path, $opensans-name, normal, $opensans-weight-normal, 'Regular');
+@include opensans-font($opensans-path, $opensans-name, italic, $opensans-weight-normal, 'Italic');
 
-@include opensans-font($opensans-path, $opensans-name, normal, 300, 'Light');
-@include opensans-font($opensans-path, $opensans-name, italic, 300, 'LightItalic');
+@include opensans-font($opensans-path, $opensans-name, normal, $opensans-weight-light, 'Light');
+@include opensans-font($opensans-path, $opensans-name, italic, $opensans-weight-light, 'LightItalic');

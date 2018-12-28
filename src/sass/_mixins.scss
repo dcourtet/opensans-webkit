@@ -9,7 +9,6 @@
         src: local('Open Sans #{$variant}'),
              local('Open-Sans-#{$variant}'),
              url('#{$path}OpenSans-#{$variant}.woff2') format('woff2'),
-             url('#{$path}OpenSans-#{$variant}.woff') format('woff'),
-             url('#{$path}OpenSans-#{$variant}.ttf') format('truetype');
+             url('#{$path}OpenSans-#{$variant}.woff') format('woff');
     }
 }

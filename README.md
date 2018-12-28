@@ -32,7 +32,7 @@ Font files are located in the `fonts/` directory.
 You can change the default fonts path by overriding `$opensans-path`:
 
 ```
-$opensans-path '/your/custom/path/';
+$opensans-path: '/your/custom/path/';
 ```
 
 To include [Google Open Sans](https://github.com/google/fonts/tree/master/apache/opensans) fonts in your SASS project, just add:
@@ -43,6 +43,17 @@ $opensans-path '/your/custom/path/';
 
 # include fonts from
 @import 'open-sans.scss';
+```
+
+Optionally, the default font weights can be customized by overriding the following variables:
+
+```
+# with default values
+$opensans-weight-extrabold: 800;
+$opensans-weight-bold: 700;
+$opensans-weight-semibold: 600;
+$opensans-weight-normal: 400;
+$opensans-weight-light: 300;
 ```
 
 ## Compile SASS to CSS
@@ -59,6 +70,12 @@ $ npm run compile:development
 # compile for production environment (minify)
 $ npm run compile:production
 ```
+
+## Font Formats
+
+In addition to the `local` directive, the fonts are available in WOFF and WOFF2 formats.
+
+Since the version 1.1.0 of this package, TTF fonts are no longer available. All recent browsers now support the WOFF format ([Browser Support for Font Formats](https://www.w3schools.com/css/css3_fonts.asp)).
 
 ## License
 
